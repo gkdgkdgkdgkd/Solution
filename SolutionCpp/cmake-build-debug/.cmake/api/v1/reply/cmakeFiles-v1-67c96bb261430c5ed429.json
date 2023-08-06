@@ -1,0 +1,115 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.5/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.5/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "/home/null/Documents/Solution/SolutionCpp/cmake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/null/Documents/Solution/SolutionCpp/cmake-build-debug",
+		"source" : "/home/null/Documents/Solution/SolutionCpp"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

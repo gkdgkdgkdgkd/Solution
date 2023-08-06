@@ -1,0 +1,3 @@
+/home/null/Documents/Solution/SolutionCpp/cmake-build-debug/CMakeFiles/SolutionCpp.dir
+/home/null/Documents/Solution/SolutionCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/null/Documents/Solution/SolutionCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
