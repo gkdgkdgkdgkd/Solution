@@ -5,8 +5,17 @@ import (
 )
 
 func main() {
-	utils.PrintTestData(4, func() {
-		k := 30
-		utils.Print(utils.Array2(k, utils.RandomArray(k*k, -99, 99)...))
+	utils.PrintTestData(1, func() {
+		n := utils.RandomInt(100, 200)
+		res := make([][]int, n)
+		for i := 0; i < n; i++ {
+			r := utils.RandomInt(10, 1000)
+			start := utils.RandomInt(1, r)
+			end := utils.RandomInt(start, start*2)
+			arr := make([]int, 2)
+			arr[0], arr[1] = start, end
+			res[i] = arr
+		}
+		utils.Print(res)
 	})
 }

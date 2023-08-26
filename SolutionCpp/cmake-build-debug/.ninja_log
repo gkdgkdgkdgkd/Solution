@@ -1,3 +1,20 @@
 # ninja log v5
-308	344	1691220575642590494	SolutionCpp	a99be936d0135f48
-0	308	1691220575609257160	CMakeFiles/SolutionCpp.dir/main.cpp.o	e3aac28fb28b6c7
+662	710	1692639087102105814	SolutionCpp	678867e1aa78e3e7
+1	100	1692637369392159513	CMakeFiles/SolutionCpp.dir/entity/ListNode.cpp.o	1befd5302155deda
+1	100	1692637369392159513	CMakeFiles/SolutionCpp.dir/entity/TreeNode.cpp.o	604b42cb0535556b
+1	620	1692639068162106408	CMakeFiles/SolutionCpp.dir/utils/Utils.cpp.o	5bb25f6d92622f69
+1	662	1692639087055439150	CMakeFiles/SolutionCpp.dir/main.cpp.o	e3aac28fb28b6c7
+2	16	1692640176002071887	CMakeFiles/SolutionCpp.dir/interface/RunTest.cpp.o	2c6343aadce9e877
+1	695	1692640176678738531	CMakeFiles/SolutionCpp.dir/main.cpp.o	e3aac28fb28b6c7
+2	760	1692640176742071862	CMakeFiles/SolutionCpp.dir/utils/Utils.cpp.o	5bb25f6d92622f69
+760	804	1692640176788738529	SolutionCpp	8ff68c52f6f0e8e9
+1	709	1692640223258737068	CMakeFiles/SolutionCpp.dir/main.cpp.o	e3aac28fb28b6c7
+1	749	1692640223298737067	CMakeFiles/SolutionCpp.dir/utils/Utils.cpp.o	5bb25f6d92622f69
+1	665	1692640232732070103	CMakeFiles/SolutionCpp.dir/main.cpp.o	e3aac28fb28b6c7
+1	49	1692640267188735697	SolutionCpp	8ff68c52f6f0e8e9
+1	694	1692640278012068697	CMakeFiles/SolutionCpp.dir/main.cpp.o	e3aac28fb28b6c7
+694	743	1692640278058735362	SolutionCpp	8ff68c52f6f0e8e9
+1	674	1692640310895400992	CMakeFiles/SolutionCpp.dir/main.cpp.o	e3aac28fb28b6c7
+674	725	1692640310945400990	SolutionCpp	8ff68c52f6f0e8e9
+1	676	1692640320228734031	CMakeFiles/SolutionCpp.dir/main.cpp.o	e3aac28fb28b6c7
+676	727	1692640320278734030	SolutionCpp	8ff68c52f6f0e8e9

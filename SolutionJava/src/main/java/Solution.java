@@ -1,32 +1,31 @@
 import java.util.*;
 
 public class Solution {
-    public String findReplaceString(String s, int[] indices, String[] sources, String[] targets) {
-        int n = indices.length;
-        int[][] arr = new int[n][2];
-        for (int i = 0; i < n; i++) {
-            arr[i][0] = indices[i];
-            arr[i][1] = i;
+    public int[] circularGameLosers(int n, int k) {
+        boolean[] visit = new boolean[51];
+        List<Integer> list = new ArrayList<>();
+        int cur = 1;
+        visit[1] = true;
+        int round = 1;
+        while (true) {
+            cur += k * round;
+            if (cur > n) {
+                cur %= n;
+            }
+            if (cur == 0) {
+                cur = n;
+            }
+            if (visit[cur]) {
+                break;
+            }
+            visit[cur] = true;
+            ++round;
         }
-        Arrays.sort(arr, Comparator.comparingInt(a -> a[0]));
-        StringBuilder res = new StringBuilder();
-        LinkedList<int[]> list = new LinkedList<>();
-        for (int[] v:arr){
-            if (s.indexOf(sources[v[1]]) == v[0]) {
-                list.add(v);
+        for (int i = 1; i <= n; i++) {
+            if (!visit[i]) {
+                list.add(i);
             }
         }
-        int lastBegin = 0;
-        for (int[] v : list) {
-            // last begin
-            // v[0] is
-            res.append(s.substring(lastBegin, v[0]));
-            res.append(targets[v[1]]);
-            // abc
-            // 0123
-            lastBegin = v[0] + sources[v[1]].length();
-        }
-        res.append(s.substring(lastBegin));
-        return res.toString();
+        return list.stream().mapToInt(i -> i).toArray();
     }
 }

@@ -9,9 +9,11 @@
 #include<iostream>
 #include<functional>
 #include<algorithm>
+#include<climits>
 
 using namespace std;
 
+/*
 static int x = []() {
 
     std::ios::sync_with_stdio(false);
@@ -19,55 +21,25 @@ static int x = []() {
     cin.tie(nullptr);
 
     return 0;
-}();
+}();*/
 
 class Solution {
-private:
-    ListNode *mergeSort(vector<ListNode *> &lists, auto l, auto r) {
-        if (l == r) {
-            return lists[l];
-        }
-        auto m = (l + r) >> 1;
-        auto *left = mergeSort(lists, l, m);
-        auto *right = mergeSort(lists, m + 1, r);
-        if (!left) {
-            return right;
-        }
-        if (!right) {
-            return left;
-        }
-        return merge(left, right);
-    }
-
-    ListNode *merge(ListNode *l1, ListNode *l2) {
-        auto dummy = new ListNode();
-        auto temp = dummy;
-        while (l1 && l2) {
-            if (l1->val > l2->val) {
-                temp->next = l2;
-                l2 = l2->next;
-            } else {
-                temp->next = l1;
-                l1 = l1->next;
-            }
-            temp = temp->next;
-        }
-        if (l1) {
-            temp->next = l1;
-        }
-        if (l2) {
-            temp->next = l2;
-        }
-        return dummy->next;
-    }
-
 public:
-    ListNode *mergeKLists(vector<ListNode *> &lists) {
-        lists.erase(remove_if(begin(lists), end(lists), [](auto p) { return !p; }), end(lists));
-        if (lists.empty()) {
-            return nullptr;
+    vector<vector<int>> merge(vector<vector<int>> &intervals) {
+        vector<vector<int>> res;
+        std::sort(intervals.begin(), intervals.end());
+        auto last = intervals[0];
+        auto n = intervals.size();
+        for (int i = 1; i < n; ++i) {
+            if (last[1] < intervals[i][0]) {
+                res.push_back(last);
+                last = intervals[i];
+            } else if (last[1] < intervals[i][1]) {
+                last[1] = intervals[i][1];
+            }
         }
-        return mergeSort(lists, 0, lists.size() - 1);
+        res.push_back(last);
+        return res;
     }
 };
 

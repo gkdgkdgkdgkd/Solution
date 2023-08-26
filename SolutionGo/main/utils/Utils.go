@@ -40,9 +40,13 @@ func Array2(k int, v ...int) [][]int {
 func RandomArray(len, start, end int) []int {
 	res := make([]int, len)
 	for i := 0; i < len; i++ {
-		res[i] = rand.Intn(end-start+1) + start
+		res[i] = RandomInt(start, end)
 	}
 	return res
+}
+
+func RandomInt(start, end int) int {
+	return rand.Intn(end-start+1) + start
 }
 
 func PrintTestData(k int, f func()) {

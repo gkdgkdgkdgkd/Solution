@@ -8,4 +8,8 @@ add_executable(SolutionCpp main.cpp
         entity/ListNode.cpp
         entity/ListNode.h
         entity/TreeNode.cpp
-        entity/TreeNode.h)
+        entity/TreeNode.h
+        utils/Utils.cpp
+        utils/Utils.h
+        interface/RunTest.cpp
+        interface/RunTest.h)

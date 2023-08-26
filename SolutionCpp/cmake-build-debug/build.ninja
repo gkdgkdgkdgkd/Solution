@@ -67,6 +67,11 @@ build CMakeFiles/SolutionCpp.dir/entity/TreeNode.cpp.o: CXX_COMPILER__SolutionCp
   OBJECT_DIR = CMakeFiles/SolutionCpp.dir
   OBJECT_FILE_DIR = CMakeFiles/SolutionCpp.dir/entity
 
+build CMakeFiles/SolutionCpp.dir/utils/Utils.cpp.o: CXX_COMPILER__SolutionCpp_unscanned_Debug /home/null/Documents/Solution/SolutionCpp/utils/Utils.cpp || cmake_object_order_depends_target_SolutionCpp
+  DEP_FILE = CMakeFiles/SolutionCpp.dir/utils/Utils.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/SolutionCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/SolutionCpp.dir/utils
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SolutionCpp
@@ -75,7 +80,7 @@ build CMakeFiles/SolutionCpp.dir/entity/TreeNode.cpp.o: CXX_COMPILER__SolutionCp
 #############################################
 # Link the executable SolutionCpp
 
-build SolutionCpp: CXX_EXECUTABLE_LINKER__SolutionCpp_Debug CMakeFiles/SolutionCpp.dir/main.cpp.o CMakeFiles/SolutionCpp.dir/entity/ListNode.cpp.o CMakeFiles/SolutionCpp.dir/entity/TreeNode.cpp.o
+build SolutionCpp: CXX_EXECUTABLE_LINKER__SolutionCpp_Debug CMakeFiles/SolutionCpp.dir/main.cpp.o CMakeFiles/SolutionCpp.dir/entity/ListNode.cpp.o CMakeFiles/SolutionCpp.dir/entity/TreeNode.cpp.o CMakeFiles/SolutionCpp.dir/utils/Utils.cpp.o CMakeFiles/SolutionCpp.dir/interface/RunTest.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   OBJECT_DIR = CMakeFiles/SolutionCpp.dir
